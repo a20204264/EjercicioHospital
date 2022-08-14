@@ -1,0 +1,18 @@
+package com.idat.Client;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.idat.DTO.Cliente;
+
+@FeignClient(name = "idat-cliente", url="localhost:8080")
+public interface OpenFeignClient {
+	@Bean
+	@GetMapping("/cliente/v1/listar")
+	public List<Cliente> listarClientesSeleccionados();
+	
+
+}

@@ -1,0 +1,48 @@
+package com.idat.Model;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+
+import lombok.Data;
+
+
+@Embeddable
+public class HospitalClienteFK implements Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3236269991492678489L;
+
+	@Column(name="id_hospital", nullable = false, unique = true)
+	private Integer idHospital;
+	
+	@Column(name="id_cliente", nullable = false, unique = true)
+	private Integer idCliente;
+
+	public Integer getIdHospital() {
+		return idHospital;
+	}
+
+	public void setIdHospital(Integer idHospital) {
+		this.idHospital = idHospital;
+	}
+
+	public Integer getIdCliente() {
+		return idCliente;
+	}
+
+	public void setIdCliente(Integer idCliente) {
+		this.idCliente = idCliente;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,40 @@
+package com.idat.Service;
+
+import java.util.List;
+
+import com.idat.DTO.DoctorDTORequest;
+import com.idat.DTO.DoctorDTOResponse;
+
+public class DoctorServiceImpl implements DoctorService {
+
+	@Override
+	public List<DoctorDTOResponse> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DoctorDTOResponse ObtenerId(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void guardar(DoctorDTORequest doctor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(DoctorDTORequest doctor) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

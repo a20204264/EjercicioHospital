@@ -1,0 +1,18 @@
+package com.idat.Service;
+
+import java.util.List;
+
+import com.idat.Model.Cliente;
+
+
+
+
+public interface ClienteService {
+	
+	List<Cliente> listar();
+	Cliente ObtenerId(Integer id);	
+	void eliminar(Integer id);
+	void actualizar(Cliente cliente);	
+	void guardar(Cliente cliente);
+
+}

@@ -1,0 +1,15 @@
+package com.idat.Service;
+
+import java.util.List;
+import com.idat.Model.Doctor;
+
+
+
+public interface DoctorService {
+	List<Doctor> listar();
+	Doctor ObtenerId(Integer id);
+	void guardar(Doctor doctor);
+	void eliminar(Integer id);
+	void actualizar(Doctor doctor);
+
+}

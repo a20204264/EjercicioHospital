@@ -1,0 +1,27 @@
+package com.idat.Model;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+
+@Entity
+@Table(name="hospital_clientes")
+public class HospitalDetalle {
+	
+	@Id
+	private HospitalClienteFK fk= new HospitalClienteFK();
+
+	public HospitalClienteFK getFk() {
+		return fk;
+	}
+
+	public void setFk(HospitalClienteFK fk) {
+		this.fk = fk;
+	}
+	
+	
+
+}

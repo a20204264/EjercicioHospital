@@ -1,0 +1,5 @@
+package com.idat.Client;
+
+public interface OpenFeignClient {
+
+}

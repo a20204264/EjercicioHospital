@@ -1,0 +1,17 @@
+package com.idat.Service;
+
+import java.util.List;
+
+import com.idat.Model.Hospital;
+
+
+
+public interface HospitalService {
+	
+	List<Hospital> listar();
+	Hospital ObtenerId(Integer id);	
+	void guardar(Hospital hospital);
+	void eliminar(Integer id);
+	void actualizar(Hospital hospital);	
+
+}

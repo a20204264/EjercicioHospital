@@ -1,0 +1,5 @@
+package com.idat.DTO;
+
+public class UsuarioDTORequest {
+
+}

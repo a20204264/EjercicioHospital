@@ -1,0 +1,14 @@
+package com.idat.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+public class HospitalDTOResponse {
+	
+	private Integer idHospital;
+	private String hospital;
+
+}

@@ -1,0 +1,39 @@
+package com.idat.Service;
+
+import java.util.List;
+
+import com.idat.Model.Hospital;
+
+public class HospitalServiceImpl implements HospitalService {
+
+	@Override
+	public List<Hospital> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Hospital ObtenerId(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void guardar(Hospital hospital) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eliminar(Integer id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void actualizar(Hospital hospital) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
